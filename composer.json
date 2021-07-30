@@ -1,0 +1,22 @@
+{
+    "name": "prspace/mailjet",
+    "description": "Mailjet driver for Laravel",
+    "keywords": ["laravel", "laravel", "mailjet", "api", "v3"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Parvez Rahaman",
+            "email": "indparvez@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "guzzlehttp/guzzle": "5.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Prspace\\Mailjet\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
